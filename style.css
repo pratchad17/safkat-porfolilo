@@ -246,14 +246,17 @@ section .title::after {
 .about .title::after {
     content: "Who I am";
 }
+.sign {
+    width: 200px;
+}
 
 .about .about-content .left {
     width: 45%;
 }
 
 .about .about-content .left img {
-    height: 400px;
-    width: 400px;
+    height: 100%;
+    width: 100%;
     object-fit: cover;
     border-radius: 6px;
 }
